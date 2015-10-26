@@ -4,7 +4,7 @@ body
 	font-family: sans-serif;
 }
 
-h2
+#name
 {
 	font-family: tahoma;
 	text-align: center;
@@ -12,6 +12,29 @@ h2
 
 img {
 	border-radius: 25px;
+	display: inline-block;
  
 }
+
+.headshot{
+	float: left;
+	margin-left: 50px;
+}
+
+.about-me{
+	float: right;
+	width: 50%
+}
+
+#nav{
+	text-align: center;
+	background: #CDC5BF;
+	}
+
+#nav li{
+	display: inline-block;
+	padding: 10px;
+}
+
+
 
