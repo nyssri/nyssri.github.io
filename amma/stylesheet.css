@@ -1,0 +1,30 @@
+body {
+	font-family: tahoma;
+}
+
+#nav{
+	position: fixed;
+}
+
+#menu li{
+	display: inline;
+}
+
+h1 {
+	text-align: center;
+}
+
+.description{
+	float: right;
+	width: 50%;
+}
+
+.images{
+	float: left;
+	width: 50%;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
