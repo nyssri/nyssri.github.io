@@ -1,6 +1,7 @@
 body
 {
 	background-color: e6e6e6;
+	font-family: sans-serif;
 }
 
 h2
@@ -14,7 +15,3 @@ img {
  
 }
 
-p
-{
-	font-family: tahoma;
-}

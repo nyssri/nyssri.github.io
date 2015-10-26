@@ -2,12 +2,9 @@ body {
 	font-family: tahoma;
 }
 
-#nav{
-	position: fixed;
-}
-
-#menu li{
-	display: inline;
+#nav li{
+	background-color: blue;
+	display: inline-block;
 }
 
 h1 {
@@ -17,14 +14,23 @@ h1 {
 .description{
 	float: right;
 	width: 50%;
+	/*display: inline-block;*/
 }
 
-.images{
-	float: left;
-	width: 50%;
+.image{
+	background-color: gray;
+	display: inline-block;
 }
 
 img {
 	width: 150px;
 	height: 150px;
+}
+
+#amma{
+	background-color: red;
+}
+
+.recipe-item{
+	background-color: yellow;
 }
