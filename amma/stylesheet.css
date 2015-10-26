@@ -1,36 +1,36 @@
 body {
 	font-family: tahoma;
 }
-
+#nav{
+	position:fixed;
+	display:block;
+	width: 800px;
+	margin: 0 auto;
+	background:red;
+}
 #nav li{
-	background-color: blue;
 	display: inline-block;
 }
-
-h1 {
+#amma{
+	background-color: orange;
+	display:block;
+}
+#amma h1 {
 	text-align: center;
 }
-
 .description{
 	float: right;
 	width: 50%;
 	/*display: inline-block;*/
 }
-
 .image{
 	background-color: gray;
 	display: inline-block;
 }
-
 img {
 	width: 150px;
 	height: 150px;
 }
-
-#amma{
-	background-color: orange;
-}
-
 .recipe-item{
 	background-color: yellow;
 }
