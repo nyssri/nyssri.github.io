@@ -17,13 +17,20 @@ img {
 }
 
 .headshot{
-	float: left;
-	margin-left: 50px;
+	/*
+	float: center;
+	width: 33%;
+	margin-left: 50px;*/
+	padding-left: 33%;
+	padding-right: 33%;
 }
 
 .about-me{
-	float: right;
-	width: 50%
+	/*float: left;
+	width: 33%
+	*/
+	margin-left: 20px;
+	margin-right: 20px;s
 }
 
 #nav{
@@ -34,6 +41,10 @@ img {
 #nav li{
 	display: inline-block;
 	padding: 10px;
+}
+
+#container{
+	background:url("vailview.JPG");
 }
 
 
