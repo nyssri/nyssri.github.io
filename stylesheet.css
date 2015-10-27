@@ -29,8 +29,8 @@ img {
 	/*float: left;
 	width: 33%
 	*/
-	margin-left: 20px;
-	margin-right: 20px;s
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 #nav{
@@ -45,6 +45,16 @@ img {
 
 #container{
 	background:url("vailview.JPG");
+}
+
+.contact-me li{
+	display:inline-block;
+	padding-right: 20px;
+
+}
+
+.contact-me p{
+	text-align: center;
 }
 
 
