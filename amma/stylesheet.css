@@ -5,20 +5,27 @@
 body {
 	font-family: tahoma;
 	max-width: 750px;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 #nav{
-	/*width: 800px;*/
 	background:red;
-	display:block;
+	position: fixed;
+	width: 80%;
+	/*border: 1px solid #ccc;
+	border-width: 1px 0;
+	list-style:none;
+	margin:0;
+	padding:0;*/
+	text-align: center;
 }
+
 #nav li{
 	display: inline-block;
+	padding-left: 20px;
 }
-#amma{
-	background-color: orange;
-}
-#amma h1 {
+
+h1 {
+	padding-top: 50px;
 	text-align: center;
 }
 
@@ -30,13 +37,13 @@ article {
 #mains{
 	margin: 0 auto;
 	max-width: 750px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 }
 .image{
 	float:left;
-	/*background-color: gray;*/
 	padding-right: 10px;
-	/*margin-left: 10px;*/
 	width: 20%;
 	height: 150px;
 	box-sizing: border-box;
@@ -45,7 +52,6 @@ article {
 .description{
 	float: left;
 	width: 80%;
-	/*margin-left: 10px;*/
 }
 
 
