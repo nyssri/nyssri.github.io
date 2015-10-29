@@ -4,6 +4,8 @@
 }
 body {
 	font-family: tahoma;
+	max-width: 750px;
+	margin-left: 20px;
 }
 #nav{
 	/*width: 800px;*/
@@ -19,21 +21,32 @@ body {
 #amma h1 {
 	text-align: center;
 }
+
+article {
+	clear: both;
+	min-height: 150px;
+	margin-bottom: 20px;
+}
+#mains{
+	margin: 0 auto;
+	max-width: 750px;
+
+}
 .image{
-	background-color: gray;
-	display: inline-block;
-	width: 33%;
+	float:left;
+	/*background-color: gray;*/
+	padding-right: 10px;
+	/*margin-left: 10px;*/
+	width: 20%;
+	height: 150px;
+	box-sizing: border-box;
 }
 
 .description{
-	float: right;
-	width: 33%;
-	/*display: inline-block;*/
+	float: left;
+	width: 80%;
+	/*margin-left: 10px;*/
 }
-img {
-	width: 150px;
-	height: 150px;
-}
-.recipe-item{
-	background-color: yellow;
-}
+
+
+
