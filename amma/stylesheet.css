@@ -29,6 +29,16 @@ body {
 	text-decoration: none;
 }
 
+.section-title{
+margin-left: 100px;
+margin-bottom: 25px;
+}
+
+article{
+margin-left: 100px;
+padding: 10px;
+}
+
 #Amma {
 	padding-top: 50px;
 	text-align: center;
@@ -57,7 +67,7 @@ article {
 
 .description{
 	float: left;
-	width: 80%;
+	width: 50%;
 }
 
 
