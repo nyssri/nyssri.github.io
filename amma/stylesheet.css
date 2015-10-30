@@ -8,7 +8,7 @@ body {
 	margin-left: 50px;
 }
 #nav{
-	background:red;
+	background-color: gray;
 	position: fixed;
 	width: 80%;
 	/*border: 1px solid #ccc;
@@ -22,6 +22,11 @@ body {
 #nav li{
 	display: inline-block;
 	padding-left: 20px;
+	text-decoration: none;
+}
+
+#nav li a{
+	text-decoration: none;
 }
 
 h1 {
@@ -47,6 +52,7 @@ article {
 	width: 20%;
 	height: 150px;
 	box-sizing: border-box;
+	border-radius: 50%;
 }
 
 .description{
