@@ -8,7 +8,7 @@ body {
 	margin-left: 100px;
 }
 #nav{
-	background-color: gray;
+	background-color: #f2efeb;
 	position: fixed;
 	width: 750px;
 	/*border: 1px solid #ccc;
@@ -17,16 +17,18 @@ body {
 	margin:0;
 	padding:0;*/
 	text-align: center;
+	font-color; black;
 }
 
 #nav li{
 	display: inline-block;
 	padding-left: 20px;
 	text-decoration: none;
-}
+	}
 
 #nav li a{
 	text-decoration: none;
+	color: black;
 }
 
 .container{
