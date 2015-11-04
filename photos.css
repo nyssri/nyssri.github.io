@@ -1,0 +1,11 @@
+
+
+.column1{
+	display: inline-block;
+	background-color: red;
+	}
+
+.column2{
+	display: inline-block;
+	background-color: blue;
+}
