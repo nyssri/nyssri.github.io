@@ -40,6 +40,24 @@ body {
 	opacity:0.5;
 }
 
+#Amma{
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+
+@keyframes slidein{
+	from{
+		margin-left: 100%;
+		width: 50%;
+	}
+
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+
 .section-title{
 margin-left: 100px;
 margin-bottom: 25px;
