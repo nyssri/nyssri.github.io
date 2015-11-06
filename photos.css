@@ -17,6 +17,8 @@ h2{
 }
 
 article{
+	border-style: outset;
+	margin-bottom: 10px;
 	width: 750px;
 }
 
