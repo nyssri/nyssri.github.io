@@ -1,4 +1,12 @@
+body{
+	margin-left: 100px;
+	margin-right: 50px;
+	font-family: Dawning of a New Day;
+}
 
+h2{
+	font-family: Permanent Marker;
+}
 
 .column1{
 	display: inline-block;
@@ -8,4 +16,15 @@
 .column2{
 	display: inline-block;
 	background-color: blue;
+}
+
+article{
+	width: 750px;
+}
+
+.article-name{
+	margin-bottom: 0;
+}
+.article-date{
+	margin-top: 0;
 }
