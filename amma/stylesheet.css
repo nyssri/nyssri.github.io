@@ -2,22 +2,50 @@
 	margin:0;
 	padding:0;
 }
+
+article {
+	/*background-color: background-color: #f2efeb;*/
+	border-style: ridge;
+	clear: both;
+	min-height: 150px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	padding: 10px;
+}
+
 body {
+	background-color: #f2efeb;
 	font-family: cardo;
 	max-width: 750px;
 	margin-left: 100px;
 }
+
+#Amma{
+	animation-duration: 2s;
+	animation-name: slidein;
+	padding-top: 50px;
+	text-align: center;
+}
+/*
+#mains{
+	margin: 0 auto;
+	max-width: 750px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+*/
 #nav{
-	background-color: #f2efeb;
+	background-color: #ffa07a;
+	font-color; black;
+	height:20px;
 	position: fixed;
-	width: 750px;
 	/*border: 1px solid #ccc;
 	border-width: 1px 0;
 	list-style:none;
 	margin:0;
 	padding:0;*/
 	text-align: center;
-	font-color; black;
+	width: 750px;
 }
 
 #nav li{
@@ -36,14 +64,43 @@ body {
 	background-image: url("http://change-life.eu/wp-content/uploads/samosa.jpg");
 	background-size:cover;
 	margin:0 auto;
+	margin-top: 30px;
+	opacity:0.75;
 	width:100%;
-	opacity:0.5;
+	}
+
+.container p{
+	padding: 10px;
 }
 
-#Amma{
-	animation-duration: 2s;
-	animation-name: slidein;
+.description{
+	float: left;
+	width: 50%;
+	margin-left: 10px;
 }
+
+.image{
+	float:left;
+	padding-right: 10px;
+	width: 30%;
+	height: 150px;
+	box-sizing: border-box;
+	border-radius: 50%;
+}
+
+.section{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	max-width: 750px;
+	/*why does snacks section heading get centered if the margin top and bottom is 20px?*/
+}
+
+.section-title{
+margin-left: 100px;
+margin-bottom: 25px;
+}
+
 
 @keyframes slidein{
 	from{
@@ -57,45 +114,14 @@ body {
 	}
 }
 
-
-.section-title{
-margin-left: 100px;
-margin-bottom: 25px;
-}
-
+/*
 #Amma {
 	padding-top: 50px;
 	text-align: center;
 }
+*/
 
-article {
-	clear: both;
-	min-height: 150px;
-	margin-bottom: 20px;
-	margin-left: 100px;
-	padding: 10px;
-}
-#mains{
-	margin: 0 auto;
-	max-width: 750px;
-	margin-top: 20px;
-	margin-bottom: 20px;
 
-}
-.image{
-	float:left;
-	padding-right: 10px;
-	width: 20%;
-	height: 150px;
-	box-sizing: border-box;
-	border-radius: 50%;
-}
-
-.description{
-	float: left;
-	width: 50%;
-	margin-left: 10px;
-}
 
 
 
