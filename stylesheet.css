@@ -34,8 +34,8 @@ img {
 }
 
 #nav{
-	text-align: center;
 	background: #CDC5BF;
+	text-align: center;
 	}
 
 #nav li{
@@ -50,6 +50,7 @@ img {
 .contact-me li{
 	display:inline-block;
 	padding-right: 20px;
+	text-align: center;
 
 }
 
