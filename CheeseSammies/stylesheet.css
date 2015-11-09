@@ -1,7 +1,20 @@
-h1{
-	color: white;
+
+.menu-details{
+	background-image: url(clipboard-34693_1280.png);
 }
 
-.container{
-	background-image: url("https://raw.github.com/nyssri/nyssri.github.io/master/sandwich-49244_1280.jpg");
+.page-title{
+	color: white;
+	font-size: 40px;
+	padding-left: 400px;
+	position: absolute;
+	top: 200px;
+}
+
+/*.container{
+	background-image: url(https://raw.github.com/nyssri/nyssri.github.io/master/CheeseSammies/sandwich-49244_1280.jpg);
+}*/
+
+.top-image{
+	position: relative;
 }
