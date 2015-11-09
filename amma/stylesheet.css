@@ -2,9 +2,9 @@
 	margin:0;
 	padding:0;
 }
-
+/*
 article {
-	/*background-color: background-color: #f2efeb;*/
+	background-color: background-color: #f2efeb;
 	border-style: ridge;
 	clear: both;
 	float: left;
@@ -13,7 +13,7 @@ article {
 	margin-left: 100px;
 	padding: 10px;
 }
-
+*/
 body {
 	background-color: #f2efeb;
 	font-family: cardo;
@@ -37,7 +37,7 @@ body {
 }
 */
 #nav{
-	background-color: #ffa07a;
+	background-color:#660066;
 	box-shadow: 5px 5px 5px 5px #777777;
 	font-color; black;
 	height:40px;
@@ -60,7 +60,7 @@ body {
 	}
 
 #nav li a{
-	color: black;
+	color:white;
 	text-decoration: none;
 }
 
@@ -80,38 +80,53 @@ body {
 	width:100%;
 	}
 
+.column1{
+	clear:both;
+	float: left;
+	margin-right: 10px;
+	width: 350px;
+}
+
+.column2
+{
+	float: left;
+	width: 350px;
+}
+
+
 .container p{
 	padding: 10px;
 }
 
+/*if i remove this will it fix the column floating issues*/
 .description{
+	font-size: 14px;
 	float: left;
 	width: 50%;
-	margin-left: 10px;
+	margin-top: 10px;
 }
 
 .image{
 	/*border-radius: 50%;*/
 	/*box-sizing: border-box;*/
-	box-shadow: 3px 3px 3px 3px #777;
+	/*box-shadow: 3px 3px 3px 3px #777;*/
 	float:left;
 	height: 150px;
 	padding-right: 10px;
-	width: 30%;
+	width: 50%;
 			
 }
 
 .section{
 	margin: 0 auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 400px;
 	max-width: 750px;
 	/*why does snacks section heading get centered if the margin top and bottom is 20px?*/
 }
 
 .section-title{
-margin-left: 100px;
-margin-bottom: 25px;
+margin-left: 50px;
+margin-bottom: 10px;
 }
 
 
@@ -126,13 +141,6 @@ margin-bottom: 25px;
 		width: 100%;
 	}
 }
-
-/*
-#Amma {
-	padding-top: 50px;
-	text-align: center;
-}
-*/
 
 
 
