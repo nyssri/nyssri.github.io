@@ -2,24 +2,13 @@
 	margin:0;
 	padding:0;
 }
-/*
-article {
-	background-color: background-color: #f2efeb;
-	border-style: ridge;
-	clear: both;
-	float: left;
-	min-height: 150px;
-	margin-bottom: 20px;
-	margin-left: 100px;
-	padding: 10px;
-}
-*/
+
 body {
 	background-color: #f2efeb;
 	font-family: cardo;
 	margin-left: 10px;
-	margin-right: 10px;
-	/*max-width: 750px; will removing this stretch the image across*/
+	margin-right: 40px;
+	padding-top: 70px;
 }
 
 #Amma{
@@ -36,22 +25,14 @@ body {
 	margin-bottom: 20px;
 }
 */
-#nav{
+
+
+.amma-nav{
 	background-color:#660066;
 	box-shadow: 5px 5px 5px 5px #777777;
-	font-color; black;
-	height:40px;
-	position: fixed;
-	/*border: 1px solid #ccc;
-	border-width: 1px 0;
-	list-style:none;
-	margin:0;
-	padding:0;*/
-	text-align: center;
-	/*width: 750px;*/
-	width:100%;
-	z-index: 10; /*This fixed the navigation in place and treated it like a frozen pane in excel*/
 }
+
+/*
 
 #nav li{
 	display: inline-block;
@@ -70,9 +51,8 @@ body {
 	margin-right:0px;
 	width: 100%;
 }
+
 .container{
-	/*color: white; get rid of the color for now*/
-	/*background-image: url("http://change-life.eu/wp-content/uploads/samosa.jpg");*/
 	background-size:cover;
 	margin:0 auto;
 	margin-top: 30px;
@@ -84,13 +64,19 @@ body {
 	clear:both;
 	float: left;
 	margin-right: 10px;
-	width: 350px;
+	width: 200px;
 }
 
 .column2
 {
 	float: left;
-	width: 350px;
+	width: 200px;
+}
+
+.column3
+{
+	float: left;
+	width: 200px;
 }
 
 
@@ -98,7 +84,6 @@ body {
 	padding: 10px;
 }
 
-/*if i remove this will it fix the column floating issues*/
 .description{
 	font-size: 14px;
 	float: left;
@@ -107,11 +92,11 @@ body {
 }
 
 .image{
-	/*border-radius: 50%;*/
-	/*box-sizing: border-box;*/
-	/*box-shadow: 3px 3px 3px 3px #777;*/
+	border-radius: 50%;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 3px 3px #777;
 	float:left;
-	height: 150px;
+	height: 200px;
 	padding-right: 10px;
 	width: 50%;
 			
@@ -121,14 +106,14 @@ body {
 	margin: 0 auto;
 	margin-bottom: 400px;
 	max-width: 750px;
-	/*why does snacks section heading get centered if the margin top and bottom is 20px?*/
+	why does snacks section heading get centered if the margin top and bottom is 20px?
 }
 
 .section-title{
 margin-left: 50px;
 margin-bottom: 10px;
 }
-
+*/
 
 @keyframes slidein{
 	from{
