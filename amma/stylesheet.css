@@ -26,6 +26,7 @@ body {
 .description{/*why doesn't this limit the text to only take 90% of the column?*/
 	/*width: 90%;*/
 }
+
 .img-banner{
 	background-image: url("http://change-life.eu/wp-content/uploads/samosa.jpg");
 	background-size: cover;
@@ -43,6 +44,13 @@ body {
 	text-decoration: none;
 }
 
+.panel{
+	background-color:#660066;
+}
+
+.panel-body{
+	color: white;
+}
 .section{
 	margin-bottom: 50px;
 }
