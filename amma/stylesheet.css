@@ -17,103 +17,38 @@ body {
 	padding-top: 10px;
 	text-align: center;
 }
-/*
-#mains{
-	margin: 0 auto;
-	max-width: 750px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-*/
-
 
 .amma-nav{
 	background-color:#660066;
 	box-shadow: 5px 5px 5px 5px #777777;
 }
 
-/*
+.description{/*why doesn't this limit the text to only take 90% of the column?*/
+	/*width: 90%;*/
+}
+.img-banner{
+	background-image: url("http://change-life.eu/wp-content/uploads/samosa.jpg");
+	background-size: cover;
+	height:400px;
+	margin-left: 10px;
+}
 
-#nav li{
-	display: inline-block;
-	padding-left: 20px;
-	text-decoration: none;
-	}
+.image{
+	border-radius: 10%;
+	width: 90%; /*this is so the images aren't pushed up against one another...is there a better way?*/
+}
 
-#nav li a{
+.navbar-nav ul li a{/*why isn't any of this affecting the menu items?*/
 	color:white;
 	text-decoration: none;
 }
 
-.banner{
-	height:300px;
-	margin-left:0px;
-	margin-right:0px;
-	width: 100%;
-}
-
-.container{
-	background-size:cover;
-	margin:0 auto;
-	margin-top: 30px;
-	opacity:0.75;
-	width:100%;
-	}
-
-.column1{
-	clear:both;
-	float: left;
-	margin-right: 10px;
-	width: 200px;
-}
-
-.column2
-{
-	float: left;
-	width: 200px;
-}
-
-.column3
-{
-	float: left;
-	width: 200px;
-}
-
-
-.container p{
-	padding: 10px;
-}
-
-.description{
-	font-size: 14px;
-	float: left;
-	width: 50%;
-	margin-top: 10px;
-}
-
-.image{
-	border-radius: 50%;
-	box-sizing: border-box;
-	box-shadow: 3px 3px 3px 3px #777;
-	float:left;
-	height: 200px;
-	padding-right: 10px;
-	width: 50%;
-			
-}
-
 .section{
-	margin: 0 auto;
-	margin-bottom: 400px;
-	max-width: 750px;
-	why does snacks section heading get centered if the margin top and bottom is 20px?
+	margin-bottom: 50px;
 }
-
-.section-title{
-margin-left: 50px;
-margin-bottom: 10px;
+.section-title{/*how do I align this to the left without having to create columns for each section?*/
+	/*text-align: center; */
 }
-*/
 
 @keyframes slidein{
 	from{
