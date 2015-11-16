@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-
+<html>
 <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <!-- Latest compiled and minified CSS - Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Optional theme -->
@@ -14,196 +18,153 @@
 
 <body>
 	<!--Navigation start-->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid amma-nav">
+	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container-fluid amma-nav">
     <!-- Brand and toggle get grouped for better mobile display --> 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+    	<div class="navbar-header">
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        	<span class="sr-only">Toggle navigation</span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+      		</button>
+    	</div>
 	
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#Amma">Home</a></li>
-        <li><a href="#mains">Mains</a></li>
-        <li><a href="#breads">Breads</a></li>
-        <li><a href="#snacks">Snacks</a></li>
-      </ul>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      		<ul class="nav navbar-nav">
+        		<li><a href="#Amma">Home</a></li>
+        		<li><a href="#mains">Mains</a></li>
+        		<li><a href="#breads">Breads</a></li>
+        		<li><a href="#snacks">Snacks</a></li>
+      		</ul>
       <!--Navbar search form-->
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      	<form class="navbar-form navbar-left" role="search">
+        	<div class="form-group">
+          		<input type="text" class="form-control" placeholder="Search">
+        	</div>
+        	<button type="submit" class="btn btn-default">Submit</button>
+      	</form>
+    	</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+	</nav>
 
-<div class="container">
-	<h1 id="Amma">Amma's Recipes</h1><!--Page Title -->
-	<br>
-	<p>Amma's Recipes are a list of recipes collected by me (and a few others) in attempt to preserve our mom's cooking.  Since we aren't the greatest cooks we need all the help we can get to make sure we can still eat this amazing food.
-	</p>
+	<div class="container">
+		<h1 id="Amma">Amma's Recipes</h1><!--Page Title -->
+		<br>
+		<p>Amma's Recipes are a list of recipes collected by me (and a few others) in attempt to preserve our mom's cooking.  Since we aren't the greatest cooks we need all the help we can get to make sure we can still eat this amazing food.
+		</p>
 	<!--Page Description -->
-</div>
-<div class="row">
-	<div class="col-sm-12 img-banner">
+	</div>
+	<div class="row">
+		<div class="col-sm-12 img-responsive img-banner">
 		<!--space for banner image-->	
+		</div>
 	</div>
-</div>
 	<!--Mains-->
-<div class="section" id="mains">
-	<h2 class="section-title">Mains</h2>
-	<div class="row mains"><!--First row pictures-->
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
-			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
-			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
-			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
-		</div>
+	<div class="section">
+		<div class="row">
+			<div id="mains">
+				<div class="col-sm-offset-1 col-sm-10">
+					<h2 class="section-title">Mains</h2>
+				</div>
+			</div>
 	</div>
+	<div class="row"><!--First row pictures-->
+			<div class="col-sm-offset-1 col-sm-3">
+				<img class="image-responsive image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+				<div>
+					<h4><a href="recipe.html" target="_blank">Sambar</a></h4> <!--Single Recipe Title-->
+					<p class="recipe-info">Sambar is a hearty soup that can be the base of a meal.  It usually consists of vegetables and lentils and is commonly eaten with dosa or rice.</p>
+				</div>
+			</div>
+		<div class="col-sm-offset-1 col-sm-3">
+			<img class="image image-responsive" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+			<div class="description">
+				<h4><a href="recipe.html" target="_blank">Green Pepper Shaak</a></h4> <!--Single Recipe Title-->
+				<p class="recipe-info">Green pepper shaak is a vegetable dish made out of green peppers and seasoning.</p>
+			</div>
+		</div>
 
-	<div class="row main-description"><!--Main descrtiptions-->
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Sambar</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Sambar is a hearty soup that can be the base of a meal.  It usually consists of vegetables and lentils and is commonly eaten with dosa or rice.</p>
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Green Pepper Shaak</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Green pepper shaak is a vegetable dish made out of green peppers and seasoning.</p>
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Another one</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Blah blah blah i hope you are getting hungry.</p>
+		<div class="col-sm-offset-1 col-sm-3">
+			<img class="image image-responsive" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+			<div>
+				<h4><a href="recipe.html" target="_blank">Another one</a></h4> <!--Single Recipe Title-->
+				<p class="recipe-info">Blah blah blah i hope you are getting hungry.</p>
+			</div>
 		</div>
 	</div>
-</div>
 <!--Breads-->
-<div class="section" id="breads">
-	<h2 class="section-title">Breads</h2>
-	<div class="row breads"><!--First row pictures-->
-		<div class="col-sm-1">
-			<!--empty space-->
+	<div class="section" id="breads">
+		<div class="row">
+			<div id="mains">
+				<div class="col-sm-offset-1 col-sm-10">
+					<h2 class="section-title">Breads</h2>
+				</div>
+			</div>
 		</div>
-		<div class="col-sm-3">
-			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+	
+		<div class="row breads">
+			<div class="col-sm-offset-1 col-sm-3">
+				<img class="image image-responsive" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+			<div>
+				<h4><a href="recipe.html" target="_blank">Chapati</a></h4> <!--Single Recipe Title-->
+				<p class="recipe-info">Chapati is a flat bread lorem ipsum omg thank god for bootstrap.</p>
+			</div>	
 		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
-			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
-			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
-		</div>
+			<div class="col-sm-offset-1 col-sm-3">
+				<img class="image image-responsive" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+				<div class="description"
+					<h4><a href="recipe.html" target="_blank">Chopra</a></h4> <!--Single Recipe Title-->
+					<p class="recipe-info">Chopra is flat bread that is made with gram flour and spices.</p>
+				</div>
+			</div>
+		<div class="col-sm-offset-1 col-sm-3">
+				<img class="image image-responsive" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+				<div class="description">
+					<h4><a href="recipe.html" target="_blank">Another one</a></h4> <!--Single Recipe Title-->
+					<p class="recipe-info">Blah blah blah i hope you are getting hungry.</p>
+				</div>
+		</div>		
 	</div>
 
-	<div class="row main-description"><!--Bread descrtiptions-->
-		<div class="col-sm-1">
-			<!--empty space-->
+<div class="section" id="snacks"><!--Snacks-->
+		<div class="row">
+			<div id="snacks">
+				<div class="col-sm-offset-1 col-sm-10">
+					<h2 class="section-title">Snacks</h2>
+				</div>
+			</div>
 		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Chapati</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Chapati is a flat bread lorem ipsum omg thank god for bootstrap.</p>
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Chopra</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Chopra is flat bread that is made with gram flour and spices.</p>
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Another one</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Blah blah blah i hope you are getting hungry.</p>
-		</div>
-	</div>
-</div>
 
-<div class="section" id="snacks">
-	<!--Snacks-->
-	<h2 class="section-title">Snacks</h2>
-	<div class="row snacks"><!--First row pictures-->
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
+	<div class="row snacks">
+		<div class="col-sm-offset-1 col-sm-3">
 			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+		
+			<div class="description">
+				<h4><a href="recipe.html" target="_blank">Ghatia</a></h4> <!--Single Recipe Title-->
+				<p class="recipe-info">Ghatia is yada yada yada.  Blah blah blah so on and so forth.</p>
+			</div>
 		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
+
+		<div class="col-sm-offset-1 col-sm-3">
 			<img class="image" src="http://recipes.betterrecipes.com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+		
+			<div class="description">
+				<h4><a href="recipe.html" target="_blank">Another one</a></h4> 
+				<p class="recipe-info">Blah blah blah i hope you are getting hungry.</p>
+			</div>
 		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3">
+
+		<div class="col-sm-offset-1 col-sm-3">
 			<img class="image" src="http://recipes.betterrecipes.	com/uploads/photo/400x300/b/b/bbc3b0d8f2127c9d34f6a73ddf9cf3ce.jpg">
+	
+			<div class="description">
+				<h4><a href="recipe.html" target="_blank">Chopra</a></h4>
+				<p class="recipe-info">Chopra is flat bread that is made with gram flour and spices.</p>
+			</div>
 		</div>
-	</div>
-
-	<div class="row description"><!--Snack descrtiptions-->
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Ghatia</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Ghatia is yada yada yada.  Blah blah blah so on and so forth.</p>
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Chopra</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Chopra is flat bread that is made with gram flour and spices.</p>
-		</div>
-		<div class="col-sm-1">
-			<!--empty space-->
-		</div>
-		<div class="col-sm-3 description">
-			<h4><a href="recipe.html" target="_blank">Another one</a></h4> <!--Single Recipe Title-->
-			<p class="recipe-info">Blah blah blah i hope you are getting hungry.</p>
-		</div>
-	</div>
 </div>
-
-
 
 <footer>
 	<div class="panel panel-default">

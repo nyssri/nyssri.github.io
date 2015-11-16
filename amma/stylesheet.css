@@ -36,7 +36,6 @@ body {
 
 .image{
 	border-radius: 10%;
-	width: 90%; /*this is so the images aren't pushed up against one another...is there a better way?*/
 }
 
 .navbar-nav ul li a{/*why isn't any of this affecting the menu items?*/
