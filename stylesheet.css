@@ -1,65 +1,13 @@
 body
 {
 	background-color: e6e6e6;
-	font-family: sans-serif;
-}
-
-#name
-{
-	font-family: tahoma;
-	text-align: center;
+	font-family: 'Josefin Sans', 'sans-serif';
 }
 
 img {
 	border-radius: 25px;
-	display: inline-block;
- 
 }
 
-.headshot{
-	/*
-	float: center;
-	width: 33%;
-	margin-left: 50px;*/
-	padding-left: 33%;
-	padding-right: 33%;
-}
-
-.about-me{
-	/*float: left;
-	width: 33%
-	*/
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-#nav{
-	background: #CDC5BF;
-	text-align: center;
-	}
-
-#nav li{
-	display: inline-block;
-	padding: 10px;
-}
-
-#container{
-	background:url("vailview.JPG");
-}
-
-.contact-me li{
-	display:inline-block;
-	padding-right: 20px;
-	text-align: center;
-
-}
-
-.contact-me p{
+.container-fluid{
 	text-align: center;
 }
-
-.navbar{
-	text-align: center;
-}
-
-
