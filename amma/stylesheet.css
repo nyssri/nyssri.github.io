@@ -32,6 +32,7 @@ body {
 
 .recipe-image{
 	border-radius: 10%;
+	max-width: 100%
 }
 
 .navbar-nav ul li a{/*why isn't any of this affecting the menu items?*/
