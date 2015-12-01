@@ -1,0 +1,19 @@
+body{
+	color: orange;
+}
+
+button{
+	background-color: blue;
+	border-radius: 10%;
+}
+
+figure{
+	text-align: center;
+	background-color: #444444;
+}
+
+.cuisine-img{
+	height: 200px;
+	width: 200px; /*need to figure out how to keep the image within the three columns*/
+	max-width: 100%;
+}
