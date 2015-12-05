@@ -7,7 +7,7 @@
 // First jquery attempt --------
 // $(document).ready(function()
 //   {
-//   	$('button').click(function()
+//   	$('button').on("click",function()
 //   	{
 //   		if ($(this).value = "Add")
 //   			{
@@ -20,47 +20,41 @@
 //   	}):
 //   });
 
-//Second jquery attempt ------
-// $(document).ready(function(){
-// 	$("#mexican")."click"(function()
-// 		{
-// 			alert.("Button clicked");
-// 		}
-// 	);
-// });
 
 
-//Javascript by ID------------
+
+//Javascript by ID------This actually works!!!------
 
 var buttonMexican = document.getElementById("mexican")
 var buttonMexicanValue = buttonMexican.textContent
 
 buttonMexican.addEventListener("click", function() { //syntax= variableName.addEventListener("eventType", function details)
-	if (buttonMexicanValue === "Add")
+	if (buttonMexicanValue === "I Don't Like It")
 	{
-		buttonMexican.textContent = "Remove";
-		buttonMexicanValue = "Remove";
+		buttonMexican.textContent = "I Like It";
+		buttonMexicanValue = "I Like It";
 	}
 	else
 	{
-		buttonMexican.textContent = "Add";
-		buttonMexicanValue = "Add";
+		buttonMexican.textContent = "I Don't Like It";
+		buttonMexicanValue = "I Don't Like It";
 	}
 });
 
 var buttonIndian = document.getElementById("indian")
 var buttonIndianValue = buttonIndian.textContent
 
-buttonIndian.addEventListener("click", function() { //syntax= variableName.addEventListener("eventType", function details)
-	if (buttonIndianValue === "Add")
+buttonIndian.addEventListener("click", function(e) { //syntax= variableName.addEventListener("eventType", function details)
+	console.log('e: ', e);
+	if (buttonIndianValue === "I Don't Like It")
 	{
-		buttonIndian.textContent = "Remove";
-		buttonIndianValue = "Remove";
+		buttonIndian.textContent = "I Like It";
+		buttonIndianValue = "I Like It";
 	}
 	else
 	{
-		buttonIndian.textContent = "Add";
-		buttonIndianValue = "Add";
+		buttonIndian.textContent = "I Don't Like It";
+		buttonIndianValue = "I Don't Like It";
 	}
 });
 
@@ -68,18 +62,17 @@ var buttonItalian = document.getElementById("italian")
 var buttonItalianValue = buttonItalian.textContent
 
 buttonItalian.addEventListener("click", function() { //syntax= variableName.addEventListener("eventType", function details)
-	if (buttonItalianValue === "Add")
+	if (buttonItalianValue === "I Don't Like It")
 	{
-		buttonItalian.textContent = "Remove";
-		buttonItalianValue = "Remove";
+		buttonItalian.textContent = "I Like It";
+		buttonItalianValue = "I Like It";
 	}
 	else
 	{
-		buttonItalian.textContent = "Add";
-		buttonItalianValue = "Add";
+		buttonItalian.textContent = "I Don't Like It";
+		buttonItalianValue = "I Don't Like It";
 	}
 });
 
-
-
-
+// 'e:' is a function that represents the click event.  Can use this to access innerHTML(?) poperty.  Use e.innerHTML instead 
+// of button ids to identify which element is being clicked.
