@@ -7,18 +7,21 @@
 // First jquery attempt --------
 $(document).ready(function()
   {
-  	$('button').on("click",function()
+  	$('.cuisine-type').on("click",function()
   	{
-  		if ($(this).value = "I Don't Like It")
+      var $cuisineType = $(this);
+      //console.log($(this).value);
+      console.log([$cuisineType.text(), this.innerHTML, $cuisineType.html()]);
+  		if ($(this).text() === "I Don't Like It")
   			{
   				// $(this).value = "I Like It";
-  				alert("Clicked")
+  				alert("Clicked");
   			}
   		else
   			{
-  				$(this).value = "I Don't Like It";
+  				$(this).text("I Don't Like It");
   			}
-  	}):
+  	});
   });
 
 
