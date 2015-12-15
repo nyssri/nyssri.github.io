@@ -11,15 +11,15 @@ $(document).ready(function()
   	{
       var $cuisineType = $(this);
       //console.log($(this).value);
-      console.log([$cuisineType.text(), this.innerHTML, $cuisineType.html()]);
-  		if ($(this).text() === "I Don't Like It")
+      //console.log([$cuisineType.text(), this.innerHTML, $cuisineType.html()]);
+  		if ($(this).text === "I Don't Like It")
   			{
-  				// $(this).value = "I Like It";
-  				alert("Clicked");
+  				//$(this).value = "I Like It";
+  				alert("I like it");
   			}
   		else
   			{
-  				$(this).text("I Don't Like It");
+  				$(this).value("I Don't Like It");
   			}
   	});
   });
