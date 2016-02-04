@@ -20,19 +20,20 @@
 
 <body>
 
-  <div class="row"> <!-- Question row -->
-  	<div class="question">
-  	  <p>I like these types of cuisines:</p>
-    </div>
+  <div class="jumbotron">
+    <h1>Cuisine Types</h1>
+    <p class="jumbotron-text">Select one or more cuisine types you'd like to eat</p>
+    <!--button is it needed?<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
   </div>
 
   <div class="row"> <!-- First row -->
+
     <div class="col-sm-offset-1 col-sm-3">
       <figure>
         Mexican
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Mexican">
         <figcaption>
-          <button class="cuisine-type"><span>I Don't Like It</span></button>
+          <input type="checkbox" name="cuisine-type" value="mexican" /> Mexican
         </figcaption>
       </figure>
     </div>
@@ -42,8 +43,8 @@
         Indian
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/dosa.jpg" class="img-responsive cuisine-img" alt="Indian">
          <figcaption>
-          <button data-favorite="false" class="cuisine-type" id="indian">I Don't Like It</button>
-        </figcaption>
+          <input type="checkbox" name="cuisine-type" value="indian" /> Indian
+         </figcaption>
       </figure>
     </div>
 
@@ -53,11 +54,15 @@
       <figure>
         Italian
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Italian">
-         <figcaption>
-          <button class="cuisine-type" id="italian">I Don't Like It</button><!-- Create a javascript function that will change the text to 'remove' if clicked and vice-versa. -->
+        <figcaption>
+          <input type="checkbox" name="cuisine-type" value="italian" /> Italian
         </figcaption>
       </figure>
     </div>
+  </div>
+
+  <div class="empty-row"><!-- Empty row for space -->
+    <!-- Empty row -->
   </div>
 
   <div class="row"> <!-- Second row -->
@@ -67,7 +72,7 @@
         Chinese
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Chinese">
         <figcaption>
-          <button class="cuisine-type" id="chinese">I Don't Like It</button>
+          <input type="checkbox" name="cuisine-type" value="chinese" /> Chinese
         </figcaption>
       </figure>
     </div>
@@ -76,8 +81,8 @@
       <figure>
         Thai
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/dosa.jpg" class="img-responsive cuisine-img" alt="Thai">
-         <figcaption>
-          <button data-favorite="false" class="cuisine-type" id="thai">I Don't Like It</button>
+        <figcaption>
+          <input type="checkbox" name="cuisine-type" value="thai" /> Thai
         </figcaption>
       </figure>
     </div>
@@ -87,13 +92,18 @@
         Spanish
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Spanish">
         <figcaption>
-          <button class="cuisine-type" id="spanish">I Don't Like It</button><!-- Create a javascript function that will change the text to 'remove' if clicked and vice-versa. -->
+          <input type="checkbox" name="cuisine-type" value="spanish" /> Spanish
         </figcaption>
       </figure>
     </div>
 
   </div>
 
+  <div>
+    <input class="btn btn-default next-button" type="submit" value="Next">
+  </div>
+
+ 
   <script src="cuisines.js"></script>
 </body>
 </html>

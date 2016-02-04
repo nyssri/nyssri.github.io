@@ -19,11 +19,10 @@
 </head>
 
 <body>
-
-   <div class="row"> <!-- Question row -->
-  	<div class="question">
-  	  <p>I don't like these ingredients (or my diet doesn't allow it):</p>
-    </div>
+  <div class="jumbotron">
+    <h1>Excluded ingredients</h1>
+      <p class="jumbotron-text">Select any ingredients you want to exclude from recipes.</p>
+    <!--button is it needed?<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
   </div>
 
   <div class="row"> <!-- First row -->
@@ -32,7 +31,8 @@
         Meat
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Meat">
         <figcaption>
-          <button id="meat">I Like It</button>
+          <input type="checkbox" name="ingredient" value="meat" /> Meat
+          <!--<button id="meat">I Like It</button>-->
         </figcaption>
       </figure>
     </div>
@@ -42,7 +42,7 @@
         Fish
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/dosa.jpg" class="img-responsive cuisine-img" alt="Fish">
          <figcaption>
-          <button data-favorite="false" id="fish">I Like It</button>
+            <input type="checkbox" name="ingredient" value="fish" /> Fish
         </figcaption>
       </figure>
     </div>
@@ -54,16 +54,17 @@
         Eggs
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Eggs">
          <figcaption>
-          <button id="eggs">I Like It</button><!-- Create a javascript function that will change the text to 'remove' if clicked and vice-versa. -->
+          <input type="checkbox" name="ingredient" value="eggs" /> Eggs
         </figcaption>
       </figure>
     </div>
 
-       <div class="row"> <!-- First row -->
-    <div class="question">
-      <p>I don't like these ingredients (or my diet doesn't allow it):</p>
-    </div>
   </div>
+
+  <div class="empty-row"><!-- Empty row for space -->
+    <!-- Empty row -->
+  </div>
+
 
   <div class="row"> <!-- Second row -->
     <div class="col-sm-offset-1 col-sm-3">
@@ -71,7 +72,7 @@
         Poultry
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Poultry">
         <figcaption>
-          <button id="poultry">I Like It</button>
+          <input type="checkbox" name="ingredient" value="poultry" /> Poultry
         </figcaption>
       </figure>
     </div>
@@ -81,23 +82,31 @@
         Nuts
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/dosa.jpg" class="img-responsive cuisine-img" alt="Nuts">
          <figcaption>
-          <button data-favorite="false" id="nuts">I Like It</button>
+          <input type="checkbox" name="ingredient" value="nuts" /> Nuts
         </figcaption>
       </figure>
     </div>
-
-    <!-- data-favorite creates a data element for you to use later.  "data-" is 'reserved' and you can add something to the end to customize it -->
     
     <div class="col-sm-offset-1 col-sm-3">
       <figure>
         Onions
         <img src="https://raw.github.com/nyssri/nyssri.github.io/master/mexican.jpg" class="img-responsive cuisine-img" alt="Onions">
          <figcaption>
-          <button id="onions">I Like It</button><!-- Create a javascript function that will change the text to "I Don't Like It" if clicked and vice-versa. -->
+          <input type="checkbox" name="ingredient" value="onions" /> Onions
         </figcaption>
       </figure>
     </div>
 
+  <div class="empty-row"><!-- Empty row for space -->
+    <!-- Empty row -->
+  </div>
+
+
+  <figure>
+    <figcaption>
+      <input class="btn btn-default next-button" type="submit" value="Next">
+    </figcaption>
+  </figure>
 
   </div>
 
