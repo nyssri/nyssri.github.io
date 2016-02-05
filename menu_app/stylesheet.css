@@ -30,6 +30,11 @@ figure{
 	width: 300px;
 }
 
+.fig-img{
+	border-style: ridge;
+	color: black;
+}
+
 h1{
 	text-align: center;
 }
