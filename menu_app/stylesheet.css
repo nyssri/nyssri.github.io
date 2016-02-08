@@ -31,12 +31,21 @@ figure{
 }
 
 .fig-img{
-	border-style: ridge;
+	border-style: groove;
 	color: black;
 }
 
 h1{
 	text-align: center;
+}
+
+li{
+	padding: 2em;
+}
+
+nav li{
+	display: inline-block;
+
 }
 
 .next-button{
