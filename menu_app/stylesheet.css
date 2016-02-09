@@ -95,7 +95,7 @@ display:block;
 }
 
 .slideshow img:nth-of-type(3){
-	-webkit-animation:autoplay 18s linear infinite 6s;
+	-webkit-animation:autoplay 18s linear infinite 12s;
 }
 
 /*animation keyframes one for Firefox and IE, the other from Chrome, Safari, and Opera*/
@@ -104,8 +104,14 @@ display:block;
 /*you can adjust the slide-in and out time to make it faster or slower*/
 
 @keyframes autoplay{
-	0% {left:-100%;}
-	1%, 33.3% {left:0%;}
-	34.3%, 100% {left:100%;}
+	0% {left:100%;}
+	2%, 33.3% {left:0;}
+	35.3%, 100% {left:100%;}
+}
+
+@webkit-keyframes autoplay{
+	0%{left:100%}
+	2%, 33.3% {left;0}
+	35.5%, 100% {left:100%;}
 }
 
