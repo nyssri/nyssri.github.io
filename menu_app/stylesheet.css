@@ -61,7 +61,7 @@ nav li{
 /*set the max-width tot he actual width of the images and the width to the size when the browser widht is less than the max-width*/
 /*margin:0 auto; centers the slideshow*/
 .slideshow{
-	width:95;
+	width:95%;
 	max-width:640px;
 	margin:0 auto;
 	position:relative;
