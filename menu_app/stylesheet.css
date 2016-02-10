@@ -40,6 +40,10 @@ h1{
 	text-align: center;
 }
 
+.home-buttons{
+	margin: 20%;
+}
+
 .intro{
 	background-color: #EEE;
 	text-align: center;
@@ -60,14 +64,15 @@ h1{
 }
 
 .intro-text p{
-	font-size: 2em;
+	font-size: 1.25em;
 	}
 
 .introduction{
-	background-image: url("///Users/sarathi/SINY/nyssri.github.io/food table.jpg");
+	background-image: url("///Users/sarathi/SINY/nyssri.github.io/food-kitchen.jpg");
 	background-size: cover;
 	background-position: center;
 	min-height: 450px;
+/*	max-height: 660px;*/
 	text-align: center;
 }
 
