@@ -73,7 +73,7 @@ h1{
 
 .introduction{
 	background-image: url("///Users/sarathi/SINY/nyssri.github.io/food-kitchen.jpg");
-	background-image: url("https://raw.github.com/nyssri/nyssri.github.io/master/food-kitchen.jpg")
+	background-image: url("https://raw.github.com/nyssri/nyssri.github.io/master/food-kitchen.jpg");
 	background-size: cover;
 	background-position: center;
 	min-height: 450px;
