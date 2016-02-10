@@ -1,5 +1,6 @@
 body{
 	color: orange;
+	font-family: 'Patrick Hand';
 }
 
 alt{
@@ -50,6 +51,26 @@ h1{
 	margin-right: 20%
 }
 
+.intro-text{
+	/*color: #FFC4B5;*/
+	/*color: #43FF88;*/
+	color: white;
+	font-weight: bold;
+	padding: 15%;
+}
+
+.intro-text p{
+	font-size: 2em;
+	}
+
+.introduction{
+	background-image: url("///Users/sarathi/SINY/nyssri.github.io/food table.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 450px;
+	text-align: center;
+}
+
 li{
 	padding: 2em;
 }
@@ -73,7 +94,7 @@ nav li{
 /*margin:0 auto; centers the slideshow*/
 .slideshow{
 	width:95%;
-	max-width:640px;
+	max-width:960px;
 	margin:0 auto;
 	position:relative;
 	overflow: hidden;
