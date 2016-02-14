@@ -98,12 +98,17 @@ nav li{
 	margin: 20px;
 }
 
+.ppl-form{
+	align-content: center;
+	/*margin:0 auto;
+*/}
+
 .question{
 	text-align: center;
 }
 
 /*set up the responsive size of the container*/
-/*set the max-width tot he actual width of the images and the width to the size when the browser widht is less than the max-width*/
+/*set the max-width to the actual width of the images and the width to the size when the browser width is less than the max-width*/
 /*margin:0 auto; centers the slideshow*/
 .slideshow{
 	width:95%;
