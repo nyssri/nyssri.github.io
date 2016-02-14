@@ -21,6 +21,15 @@ figure{
 	/*background-color: #444444;*/
 }
 
+figcaption{
+	font-size: 2em;
+}
+
+.fig-img{
+	/*border-style: groove;*/
+	color: black;
+}
+
 .jumbotron-text{
 	text-align: center;
 }
@@ -32,11 +41,6 @@ figure{
 
 .cuisine-container{
 	padding: 20px;
-}
-
-.fig-img{
-	border-style: groove;
-	color: black;
 }
 
 h1{
