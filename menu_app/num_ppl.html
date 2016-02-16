@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!-- jquery library -->
   <!-- Latest compiled and minified CSS - Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Optional theme -->
@@ -23,24 +24,28 @@
       <p class="jumbotron-text">Last but not least, tell us how many people will be eating.</p>
     <!--button is it needed?<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>-->
   </div>
-
-  <div class="row">
-  <!-- <div class="ppl-form"> --> 
-   	<div class="col-sm-offset-4" "col-sm-4">
-  	  <form action"http://www.sarathiny.com/menu_app/num_ppl.html">
-  	    <p>I'm cooking for this many people:</P>
-  	    <textarea class="txt-people" rows="1" columns="2" maxlength="2" required></textarea>
-      </form>
-    </div>
+<!-- 
+  <div class="num-container">
+    <div class="row"> -->
+      <div class="num-container"> 
+   	  <!-- <div class="col-sm-offset-4" "col-sm-4"> -->
+  	    <form action"http://www.sarathiny.com/menu_app/num_ppl.html" class="ppl-form">
+  	     <p>I'm cooking for this many people:</P>
+  	     <textarea class="txt-people" rows="1" columns="2" maxlength="2" required></textarea>
+        </form>
+  <!--     </div>
+    </div> -->
   </div>
 
   <figure>
     <figcaption class="recipes-button">
-       <a href="">
-        <input class="btn btn-default next-button" type="submit" value="Get Recipes!">
+      <a href="">
+        <input class="btn btn-default next-button" type="submit" value="Get Recipes!" id="btnRecipes">
       </a>
     </figcaption>
   </figure>
+
+  <script src="recipes.js"></script>
 
 </body>
 </html>

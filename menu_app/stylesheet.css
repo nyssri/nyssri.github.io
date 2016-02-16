@@ -98,13 +98,21 @@ nav li{
 	margin: 20px;
 }
 
+.num-container{
+	
+}
+
 .ppl-form{
-	align-content: center;
-	/*margin:0 auto;
-*/}
+	margin:0 auto; /*need to set the width before margin: 0 auto will do anything;*/
+	width: 200px;
+}
 
 .question{
 	text-align: center;
+}
+
+.recipes-button{
+	
 }
 
 /*set up the responsive size of the container*/
