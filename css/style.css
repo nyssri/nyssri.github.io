@@ -1,0 +1,44 @@
+/*this is the new css file for my profile profile page*/
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+/*******Main content*******/
+
+.column1{
+	min-width: 33%;
+	float: left;
+	border-color: black;
+	border: 5px;
+	border-style: dashed;
+	padding: 10px;
+}
+
+.column2{
+	max-width: 33%;
+	float: left;
+	border-color: black;
+	border: 5px;
+	border-style: dashed;
+	padding: 10px;
+}
+
+.column3{
+	max-width: 33%;
+	float: left;
+	border-color: black;
+	border: 5px;
+	border-style: dashed;
+	padding: 8px;
+}
+
+/*******Footer*******/

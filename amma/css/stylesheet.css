@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #f2efeb;
+	font-family: cardo;
+	margin-left: 10px;
+	margin-right: 40px;
+	padding-top: 70px;
+}
+
+#Amma{
+	animation-duration: 2s;
+	animation-name: slidein;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.amma-nav{
+	background-color:#660066;
+	box-shadow: 5px 5px 5px 5px #777777;
+}
+
+.img-banner{
+	background-image: url("http://change-life.eu/wp-content/uploads/samosa.jpg");
+	background-size: cover;
+	height:400px;
+	margin-left: 10px;
+}
+
+.recipe-image{
+	border-radius: 10%;
+	max-width: 100%;
+}
+
+.navbar-nav ul li a{/*why isn't any of this affecting the menu items?*/
+	color:white;
+	text-decoration: none;
+}
+
+.panel{
+	background-color:#660066;
+}
+
+.panel-body{
+	color: white;
+}
+
+.section{
+	margin-bottom: 50px;
+}
+
+@keyframes slidein{
+	from{
+		margin-left: 100%;
+		width: 50%;
+	}
+
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}

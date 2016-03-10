@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <!-- Optional theme -->
@@ -19,9 +20,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <p class="navbar-text"><a href="index.html">About Me</a></p>
-      <p class="navbar-text"><a href="photos.html">Year in Photos</a></p>
-      <p class="navbar-text"><a href="http://www.sarathiny.com/amma">Amma's Recipes</a></p>
-      <p class="navbar-text"><a href="">Menu Planner</a></p>
+      <p class="navbar-text"><a href="personalprojects.html">Personal Projects</a></p>
+      <p class="navbar-text"><a href="portfolio.html">Portfolio</a></p>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -30,26 +30,65 @@
     <div class="col-sm-3 headshot">
       <!--empty space-->
     </div>
+
     <div class="col-sm-3 headshot">
       <img src="https://raw.github.com/nyssri/nyssri.github.io/master/sarathiacl.JPG">
       <!-- <img src="///Users/sarathi/SINY/nyssri.github.io/sarathiacl.JPG">  --> <!-- offline viewing -->
     </div>
+
     <div class="col-sm-3 about-me">
   			<p>
     		Hi, my name is Sarathi and I'd be honored if you'd explore my website. Click on the links below to learn more about me.  This website and the links to my other pages are still very much a work in progress.  Check back often to see what else I've added and how it has evolved.
   			</p>
+        
+        <button id="btn-personal">Personal details</button>
+          <div id="personal" class="about-me-link">
+            <p>On a personal level, there a few things that I enjoy.  I love to travel any chance I can get and I've been to 30+ countries.</p>
+            <p>I enjoy watching and playing sports.  I regularly play in softball and basketball leagues and am a proud Mets fan (for better or worse).</p>
+            <p>If I had more time, I'd probably spend time learning more languages.  The last language I attempted to learn is German.  I still have a long way to go.</p>
+            <p>Check out my <a href="photos.html">year in photos</a> to find out what I've been up to.</p>
+          </div>
+
+        <button id="btn-professional">Professional details</button>
+          <div id="professional" class="about-me-link">
+          <p>You can probably find most of my professional detail on my <a href="www.linkedin.com/in/sarathis1" target="_blank">LinkedIn</a> page but I can add a little bit more color here.  I have quite a few years of work experience and have spent my last several years as a product manager at an investment bank.  I recently realized it's time for a change so I enrolled with <a href="http://www.startupinstitute.com" target="_blank">Startup Institute in the Web Design track.</a>  If I hadn't enrolled, it possible this website never would have been born.</p>
+          <p>I'm motivated by the desire to learn new things and solve really interesting problems.  If I didn't have to pay bills I'd probably spend a lot of my time taking classes to learn languages and tons of other stuff like the UX Design course I took in 2014.<p>
+        </div>
+
+        <button id="btn-tidbits">Interesting tidbits</button>
+          <div id="tidbits" class="about-me-link">
+            <p>These are some tidbits</p>
+          </div>
+      </div>
+
+<!--       <div>
         <p>
-          <a href="personal.html">Personal details</a>
+          <a href="" id="personal-link">Personal details</a>
         </p>
+        <div id="personal" class="about-me-link">
+          <p>On a personal level, there a few things that I enjoy.  I love to travel any chance I can get and I've been to 30+ countries.</p>
+          <p>I enjoy watching and playing sports.  I regularly play in softball and basketball leagues and am a proud Mets fan (for better or worse).</p>
+          <p>If I had more time, I'd probably spend time learning more languages.  The last language I attempted to learn is German.  I still have a long way to go.</p>
+          <p>Check out my <a href="photos.html">year in photos</a> to find out what I've been up to.</p>
+        </div>
+
         <p>
-          <a href="professional.html">My Professional Side</a>
+          <a href="">My Professional Side</a>
         </p>
+        <div id="professional" class="about-me-link">
+          <p>You can probably find most of my professional detail on my <a href="www.linkedin.com/in/sarathis1" target="_blank">LinkedIn</a> page but I can add a little bit more color here.  I have quite a few years of work experience and have spent my last several years as a product manager at an investment bank.  I recently realized it's time for a change so I enrolled with <a href="http://www.startupinstitute.com" target="_blank">Startup Institute in the Web Design track.</a>  If I hadn't enrolled, it possible this website never would have been born.</p>
+          <p>I'm motivated by the desire to learn new things and solve really interesting problems.  If I didn't have to pay bills I'd probably spend a lot of my time taking classes to learn languages and tons of other stuff like the UX Design course I took in 2014.<p>
+        </div>
+      <div>
+
+      <div id="tidbits" class="about-me-link">
         <p>
           <a href="tidbits.html">Other interesting tidbits</a>
         </p>
+      </div>
+ -->    
     <div class="col-sm-3 headshot">
       <!--empty space-->
-    </div>
   	</div>
 </div>
 
@@ -62,6 +101,6 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </footer>
-
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
 </body>
-</hmtl>
+</html>
