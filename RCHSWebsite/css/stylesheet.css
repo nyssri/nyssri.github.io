@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;  /*forces the border and padding into the width and height of the element*/
+}
+
+body{
+	font-family: 'Cuprum', sans-serif;
+	width: 100%;
+}
+
+.bottom-center{
+	float: left;
+	margin-right: 20px;
+	width: 32%;
+}
+
+.bottom-image{
+	margin-top: 32px;
+	max-width: 100%;
+}
+
+.bottom-left{
+	float: left;
+	width: 32%;
+	margin-right: 20px;
+}
+
+.bottom-right{
+	float: right;
+	width: 32%;
+}
+
+.footer{
+	clear: both;
+	height: 50px;
+	margin-top: 30px;
+	min-width: 100%;
+	text-align: center;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.full-size{
+	width: 100%;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.key-text{
+	text-align: center;
+}
+
+li{
+	margin-right: 10px;
+}
+
+#logo{
+	position: center;
+}
+
+.nav{
+	background-color: black;
+	background-image: url('../images/logo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	top:0;
+	width: 100%;
+}
+
+#search{
+	height: 50px;
+	float: right;
+}
+
+.top-image{
+	max-width: 100%;
+}
+
+.center-image{
+	max-width: 100%;
+}
+
+
+ul li{
+	display: inline-block;
+	text-align: center;
+}
+
+.left-side{
+	height: auto;
+	margin-right: 10px;
+	width: 48%;
+	float: left;
+	clear: left;
+}
+
+.right-side{
+	height: auto;
+	width: 48%;
+	float: right;
+}
+
+.right-image{
+	max-width: 100%;
+	/*max-height: 100%;*/
+	height: auto;
+	width:100%;
+}
+
+.left-image{
+	max-width: 100%;
+	/*max-height: 100%;*/
+	height: auto;
+	width:100%;
+}
+
+
+
+
