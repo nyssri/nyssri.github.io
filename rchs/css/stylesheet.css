@@ -1,0 +1,765 @@
+* {
+	box-sizing: border-box;  /*forces the border and padding into the width and height of the element*/
+}
+
+body{
+	font-family: 'Cuprum', sans-serif;
+	width: 100%;
+}
+
+.bottom-center{
+	float: left;
+	height: auto;
+	margin-right: 1%;
+	min-height: 100%;
+	width: 30.6%;
+}
+
+.bottom-image{
+	max-width: 100%;
+}
+
+.bottom-left{
+	float: left;
+	width: 33.6%;
+	margin-right: 1%;
+}
+
+.bottom-right{
+	float: right;
+	width: 33.6%;
+}
+
+.bottom-text{
+	margin-left: 10px;
+}
+
+.footer{
+	clear: both;
+	height: 50px;
+	margin-top: 30px;
+	min-width: 100%;
+	text-align: center;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.full-size{
+	width: 100%;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.key-text{
+	text-align: center;
+}
+
+li{
+	margin-right: 10px;
+}
+
+#logo{
+	position: center;
+}
+
+.nav{
+	background-color: black;
+	background-image: url('../images/logo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	top:0;
+	width: 100%;
+}
+
+#search{
+	height: 50px;
+	float: right;
+}
+
+.top-image{
+	max-width: 100%;
+}
+
+.center-image{
+	height:auto;
+	max-width: 100%;
+}
+
+
+ul li{
+	display: inline-block;
+	text-align: center;
+}
+
+.left-side{
+	height: auto;
+	margin-right: 10px;
+	width: 48%;
+	float: left;
+	clear: left;
+}
+
+.right-side{
+	height: auto;
+	width: 48%;
+	float: right;
+}
+
+.right-image{
+	max-width: 100%;
+	height: auto;
+	width:100%;
+}
+
+.left-image{
+	max-width: 100%;
+	height: auto;
+	width:100%;
+}
+
+/******playlist.html styling*******/
+.center{
+	float: left;
+	height: auto;
+	margin-right: 1%;
+	min-height: 100%;
+	width: 30.6%;
+}
+
+.bottom-image{
+	max-width: 100%;
+}
+
+.left{
+	float: left;
+	width: 33.6%;
+	margin-right: 1%;
+}
+
+.right{
+	float: right;
+	width: 30.6%;
+}
+/******end playlist.html styling***/
+
+/******greenwall.html styling******/
+#greenwall-share{
+	position: absolute;
+	left: 50px;
+}
+.iac-left{
+	float:left;
+	margin-right: 2%;
+	width: 30%;
+}
+
+.iac-small{
+	}
+.iac-small img{
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+.iac-right{
+	float: left;
+	width: 68%;
+}
+
+.irrigation-image{
+	float:left;
+	margin-right: 3%;
+	width: 60%;
+}
+
+.irrigation-text{
+	float: left;
+	margin-top: 3%;
+	width: 20%;
+}
+
+.left-list{
+	float:right;
+	margin-right: 5%;
+	width: 10%;
+}
+
+.lists p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.lists ul{
+	line-height: 1.5em;
+	list-style: none;
+}
+
+.right-list{
+	float: right;
+	margin-right: 5%;
+	width: 10%;
+}
+
+.right-list button{
+	margin-bottom: 5px;
+	border-radius: 5%;
+	width: 100px;
+}
+
+#pavers{
+	clear: both;
+	padding-top: 30px;
+}
+
+.plants-text{
+	margin: 2% 20%;
+	font-size: 3em;
+	text-align: center;
+}
+
+.related-projects{
+	clear: both;
+	height: 20px;
+	margin-left: 10%;
+	width: 75%;
+	padding-top: 5px;
+}
+
+.related-projects p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.text-block h4{
+	text-align: center;
+}
+
+.text-block p{
+	margin: 2% 20%;
+	font-size: 1.1em;
+	position: relative;
+}
+
+.four-images{
+	margin: 3% 10%;
+}
+
+.first{
+	float: left;
+	margin-right: 2%;
+	width: 22%;
+}
+
+.second{
+	float: left;
+	margin-right: 2%;
+	width: 22%;
+}
+
+.third{
+	float: left;
+	margin-right: 2%;
+	width: 22%;
+}
+
+.fourth{
+	float: left;
+	margin-right: 2%;
+	width: 22%;
+
+}
+/*****End greenwall.html styling*****/
+
+/*****resorts.html styling**********/
+.common-margin{
+	margin: 2% 20%;
+	margin-left: 20%;
+	margin-right: 10%;
+	position: relative;
+}
+
+.common-margin h4{
+	text-align: center;
+}
+
+.common-margin p{
+	font-size: 1.1em;
+}
+
+.courtyard-images{
+	float:left;
+	margin-right: 3%;
+	width: 62%;
+}
+
+.courtyard-text{
+	float: left;
+	width: 25%;
+}
+
+.panels{
+	margin-left: 10%;
+	margin-right: 10;
+	width: 80%;
+}
+
+.panels img{
+	max-width: 100%;
+}
+
+.grid{
+	margin-left: 10%;
+	max-width: 40%;
+}
+
+.grid p{
+	text-align: center;
+}
+
+.grid img{
+	max-height: 170px;
+}
+
+.left-side{
+	float: left;
+	margin-right: 1%;
+	max-width: 48%;
+}
+
+#resort-share{
+	position: absolute;
+}
+
+.right-side{
+	float: left;
+	margin-left: 1%;
+	max-width: 48%;
+}
+
+.team-list{
+	float: right;
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	width: 20%;
+}
+
+.team-list button{
+	margin-bottom: 10px;
+	border-radius: 5%;
+	width: 100px;
+}
+
+.team-names li{
+	display: block;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.team-list p{
+	font-weight: bold;
+	text-align: center;
+}
+
+/********chesspark.html styling******/
+
+.abstract-text{
+	float: left;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	margin-right: 1%;
+	width: 29%;
+}
+
+#allusions{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#chess-share{
+	position: absolute;
+	top: 0;
+}
+
+.chess-more{
+	clear: both;
+	float: right;
+	margin-right: 20%;
+	width: 30%;
+}
+
+.chess-more button{
+	margin-bottom: 10px;
+	border-radius: 5%;
+	width: 110px;
+}
+
+.chess-more p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.chess-team{
+	float: left;
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	width: 20%;
+}
+
+.chess-team li{
+	display: block;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.chess-team p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.collage-grid{
+	clear: both;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 50px;
+}
+
+.collage-left{
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}
+
+.collage-right{
+	float: left;
+	margin-bottom: 3%;
+}
+
+.entrance{
+	margin: 2% 25%;
+	max-height: 400px;
+	width: 50%;
+}
+
+.entrance-image{
+	margin: 1% 20%;
+	width: 60%;
+}
+
+.entrance-image img{
+	max-width: 100%
+}
+
+.entrance-large{
+	width: 100%;
+}
+
+.left-entrance{
+	float: left;
+	width: 48%;
+}
+
+.right-entrance{
+	float:right;
+	width: 48%;
+}
+
+#park-image{
+	float: left;
+	width: 50%;
+}
+
+#park-image img{
+	max-width: 100%;
+}
+
+.park-text{
+	float: left;
+	margin: 10% 5%;
+	position: relative;
+	width: 40%;
+}
+
+.park-text p{
+	font-size: 1.5em;
+}
+
+.left-text{
+	clear: both;
+	float: left;
+	width: 46%;
+}
+
+.right-text{
+	float: right;
+	width: 46%;
+}
+
+.sculpture{
+	float: right;
+	height: 20%;
+	margin-top: 5%;
+	margin-left: 1%;
+	margin-right: 30%;
+	width: 15%;
+}
+
+.sculpture img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.text{
+	margin: 2% 20%;
+	font-size: 1.1em;
+}
+
+.text-entrance{
+	clear: both;
+	margin-top: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.2em;
+}
+
+
+/*ahava.html styling*/
+.ahava-img{
+	float: right;
+	width: 50%;
+}
+
+.ahava-img img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.ahava-design{
+	margin-top: 1em;
+	max-width: 100%;
+}
+
+#ahava-grid{
+	max-width: 100%;
+	margin-top: 30%;
+}
+
+.ahava-inside{
+	max-width: 100%;
+}
+
+#ahava-plan{
+	margin-top: 10%;
+	max-width: 100%;
+}
+
+.ahava-left{
+	float: left;
+	margin-left: 10%;
+	margin-right: 1%;
+	position: relative;
+	width: 39%;
+}
+
+.ahava-left-images{
+	max-width: 100%;
+}
+
+#ahava-share{
+	position: absolute;
+	top: 50px;
+}
+
+.ahava-text{
+	max-width: 100%;
+	margin-top: 50px;
+}
+
+.ahava-text h3{
+	text-align: center;
+}
+
+.ahava-text p{
+	margin: 2% 20%;
+	font-size: 1.1em;
+}
+
+.ahava-credits{
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+.ahava-bottom{
+	margin-top: 3%;
+}
+
+.ahava-bottom-image{
+	float: left;
+	margin-left: 10%;
+	width: 47%;
+}
+
+.ahava-bottom-image img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.ahava-bottom-right{
+	float: right;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 23%;
+}
+
+.ahava-bottom-right p{
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+#ahava-yard{
+	margin-bottom: 30%;
+}
+
+.ahava-more{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 80%;
+}
+
+.ahava-more a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.ahava-more li{
+	border: 1px solid;
+	border-radius: 5%;
+	padding: 5px;
+	margin: 5px;
+	min-width: 87px;
+}
+
+.ahava-more p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.ahava-more ul{
+	text-align: center;
+}
+
+.ahava-credits li{
+	display: block;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.ahava-credits p{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*------------work.html styling--------------------*/
+.work-caption{
+	margin-left: 20px;
+}
+
+.work-caption-right{
+	margin-left: 10px;
+}
+
+.work-full-image img{
+	max-width: 100%;
+}
+
+.work-left-third{
+	float: left;
+	width: 32%;
+}
+
+.work-left-third img{
+	max-width: 100%;
+}
+
+.work-mid-third{
+	float: left;
+	margin-left: 2%;
+	width: 32%;
+}
+
+.work-mid-third img{
+	max-width: 100%;
+}
+
+.work-right-third{
+	float: left;
+	margin-left: 2%;
+	width: 32%;
+}
+
+.work-right-third img{
+	max-width: 100%;
+}
+
+.work-nav{
+	/*display: inline-block;*/
+	margin: 1% auto;
+	text-align: center;
+}
+
+.work-nav li{
+	margin-right: 5px;
+	list-style: none;
+	text-align: center;
+}
+
+.work-left-half{
+	float: left;
+	width: 49%;
+}
+
+.work-left-half img{
+	max-width: 100%;
+}
+
+.work-right-half{
+	float: right;
+	width: 49%;
+}
+
+.work-right-half img{
+	max-width: 100%;
+}
+
+#work-title{
+	position: relative;
+}
+
+#work-title h1{
+	text-align: center;
+}
+
+#work-title p{
+	border: 1px solid;
+	border-radius: 5%;
+	padding: 1px 10px;
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+
+
+
