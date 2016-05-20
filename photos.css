@@ -1,13 +1,20 @@
+.align{
+	margin-right: 0;
+	margin-left: 0;
+}
+
 article{
+	background: #fff;
 	border-style: outset;
-	margin-bottom: 10px;
 	margin: 0 auto; /*centers the article horizontally in all browsers*/
+	margin-top: 20px;
 	width: 750px;
 }
 body{
 	margin-left: 100px;
 	margin-right: 50px;
 	font-family: Dawning of a New Day;
+	background: #baa;
 }
 
 h2{
